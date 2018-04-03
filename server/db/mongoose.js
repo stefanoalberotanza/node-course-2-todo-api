@@ -9,7 +9,7 @@ if(process.env.PORT){
 }else{
  connectPath = "mongodb://localhost:27017/TodoApp";
 }
-mongoose.createConnection(connectPath);
+mongoose.create(connectPath);
 
 
 module.exports = {mongoose};
