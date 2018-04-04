@@ -11,5 +11,5 @@ if(process.env.PORT){
 }
 mongoose.connect(connectPath);
 
-
+  
 module.exports = {mongoose};
